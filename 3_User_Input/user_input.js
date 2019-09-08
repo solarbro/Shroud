@@ -100,7 +100,7 @@ function createKeyboard() {
     for (var i = 0; i < zxcvbLetters.length; ++i) {
         g_buttonElements[zxcvbLetters[i].toLowerCase()] = createButton(zxcvb, zxcvbLetters[i], "50px", "35px");
     }
-    g_buttonElements["ShiftRight"] = createButton(zxcvb, "Shift", "125px", "35px");
+    g_buttonElements["ShiftRight"] = createButton(zxcvb, "Shift", "65px", "35px");
     // up arrow
     g_buttonElements["ArrowUp"] = createButton(zxcvb, "UP", "50px", "35px");
     //Bottom row
@@ -118,11 +118,11 @@ function createKeyboard() {
     g_buttonElements["AltRight"] = createButton(bottom, "Alt", "50px", "35px");
     // We also can't handle the context menu button so we add another dummy
     // button to pad that out too
-    var otherDisabledButtons = createButton(bottom, "Disabled2", "75px", "35px");
+    var otherDisabledButtons = createButton(bottom, "Disabled2", "15px", "35px");
     otherDisabledButtons.disabled = true;
     otherDisabledButtons.textContent = "";
     // Right Ctrl
-    g_buttonElements["ControlRight"] = createButton(bottom, "Ctrl", "100px", "35px");
+    g_buttonElements["ControlRight"] = createButton(bottom, "Ctrl", "80px", "35px");
     // And then the remaining arrow keys
     g_buttonElements["ArrowLeft"] = createButton(bottom, "<", "50px", "35px");
     g_buttonElements["ArrowDown"] = createButton(bottom, "Dn", "50px", "35px");
