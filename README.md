@@ -7,6 +7,8 @@ Shroud of the Forsaken is a 2.5D hack-n-slash RPG written from the ground up in 
 
 ### Tutorials
 [1. Getting Started](https://solarbro.github.io/Shroud/1_Getting_Started/)
+
 [2. Game State Manager](https://solarbro.github.io/Shroud/2_Game_State_Manager/)
+
 [3. User Input](https://solarbro.github.io/Shroud/3_User_Input/)
 
